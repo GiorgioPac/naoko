@@ -17,4 +17,4 @@ For job inquiries or collaborations, please feel free to reach out:
 
 You can download my latest Curriculum Vitae (PDF) for a full overview of my technical experience:
 
-[Download CV](/naoko/assets/files/your_cv_name.pdf)
+[Download CV](/naoko/assets/files/giorgio_pacchione_cv.pdf)
