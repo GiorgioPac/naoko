@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home"
-    url: /naoko/
+    url: /
   - title: "Portfolio"
     url: /naoko/portfolio/
   - title: "Blog"
