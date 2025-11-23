@@ -118,37 +118,25 @@ author:
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            : "pacchionegiorgio@gmail.com"
-  links:
+  
 links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:pacchionegiorgio@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin" # Icona corretta per LinkedIn
-      url: "https://www.linkedin.com/in/giorgio-pacchione-0516a2198"
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:pacchionegiorgio@gmail.com"
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/giorgio-pacchione-0516a2198"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:pacchionegiorgio@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/giorgio-pacchione-0516a2198"
+  since: "2013" # L'anno può essere l'anno di creazione del tuo sito o il presente
 
 
 # Reading Files
