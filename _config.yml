@@ -115,9 +115,8 @@ analytics:
 author:
   name             : "Giorgio Pacchione"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            : "pacchionegiorgio@gmail.com"
+  bio              : "Aeronautical Engineer by choice, deeply passionate about Aerodynamics and Fluid Dynamics. A dedicated fan of Hip Hop and Rap, live music, and combat sports. Overall, a nerd."
+  location         : "Milan"
   
   links:
     - label: "Email"
