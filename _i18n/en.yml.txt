@@ -1,0 +1,4 @@
+# en.yml file
+
+# Overrides the 'Follow' text in the footer
+follow: "Connect"
