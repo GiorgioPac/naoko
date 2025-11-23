@@ -1,12 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# main links
+main:
+  - title: "Home"
+    url: /naoko/
+  - title: "Portfolio"
+    url: /naoko/portfolio/
+  - title: "Blog"
+    url: /naoko/year-archive/
+  - title: "CV / Contact"
+    url: /naoko/contact/
+
+# sidebar links (se presenti, li lasciamo per ora)
+# Se noti altre sezioni come "docs_quick_start", ignorale o commentale con un #
