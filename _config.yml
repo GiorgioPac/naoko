@@ -119,13 +119,13 @@ author:
   location         : "Somewhere"
   email            : "pacchionegiorgio@gmail.com"
   
-links:
-  - label: "Email"
-    icon: "fas fa-fw fa-envelope-square"
-    url: "mailto:pacchionegiorgio@gmail.com"
-  - label: "LinkedIn"
-    icon: "fab fa-fw fa-linkedin"
-    url: "https://www.linkedin.com/in/giorgio-pacchione-0516a2198"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:pacchionegiorgio@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/giorgio-pacchione-0516a2198"
 
 # Site Footer
 footer:
