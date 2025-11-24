@@ -302,3 +302,8 @@ defaults:
       comments: # true
       share: true
       related: true
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
