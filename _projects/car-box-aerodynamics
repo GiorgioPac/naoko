@@ -13,6 +13,9 @@ tags:
 mathjax: true
 layout: single
 classes: wide
+header:
+  overlay_image: /assets/images/openfoam/velocity.png
+  caption: "Credit: D. Terraneo, G. Pacchione, M. Maddonini, P. Sarti"
 excerpt: "A comparative study combining OpenFOAM CFD simulations and wind tunnel testing to minimize drag and fuel consumption of an Audi A4 equipped with various cargo box configurations."
 ---
 
