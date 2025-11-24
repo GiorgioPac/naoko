@@ -10,10 +10,11 @@ tags:
   - Gurney Flap
   - Transient Simulation
   - project
+mathjax: true
 layout: single
 classes: wide
 header:
-  overlay_image: /naoko/assets/images/su2/su2_banner.png
+  overlay_image: /assets/images/su2/su2_banner.png
   caption: "Credit: Francesco Lo Sardo, Gino Martella, Giorgio Pacchione, Davide Ruocchio, Luca Servadio"
 excerpt: "A comprehensive Computational Fluid Dynamics (CFD) study investigating the aerodynamic optimization of a Formula 1 rear wing through the deployment of a Drag Reduction System (DRS) and the geometric influence of a Gurney Flap."
 ---
@@ -54,16 +55,20 @@ The $40^{\circ}$ DRS opening occurs over a rapid $0.2$ second window. The **unst
 ### 2. Gurney Flap Trade-Off
 The Gurney Flap (tested at $0.01c$ and $0.02c$) was confirmed to significantly increase downforce ($C_L$). However, because the flap introduces a drag deficit, the overall **Lift-to-Drag ($L/D$) ratio was worse** than the wing without the Gurney Flap. The shorter flap ($0.01c$) delivered a more balanced performance.
 
-![Gurney Flap Flow]( /naoko/assets/images/su2/gurney_flap.png )
-*Figure 3: Streamlines visualization showing the flow structures around the Gurney Flap.*
+<figure>
+    <a href="/naoko/assets/images/su2/gurney_flap.png"><img src="/naoko/assets/images/su2/gurney_flap.png" alt="Streamlines around Gurney Flap"></a>
+    <figcaption>Figure 3: Streamlines visualization showing the flow structures around the Gurney Flap.</figcaption>
+</figure>
 
 ### Summary of Results (Total Coefficients)
 
-| Configuration | $C_L$ (Total) | $C_D$ (Total) | $L/D$ Ratio |
-| :--- | :--- | :--- | :--- |
-| **No Gurney flap** | -5.806 | 0.133 | **43.65** |
-| **Gurney $0.01c$** | -5.870 | 0.156 | 37.63 |
-| **Gurney $0.02c$** | -5.937 | 0.160 | 37.11 |
+The table below summarizes the aerodynamic total coefficients and lift-to-drag ratio with and without the Gurney flap for both configurations.
+
+| Configuration | **DRS Disabled** <br> $C_L$ | **DRS Disabled** <br> $C_D$ | **DRS Disabled** <br> $L/D$ | **DRS Enabled** <br> $C_L$ | **DRS Enabled** <br> $C_D$ | **DRS Enabled** <br> $L/D$ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Gurney 0.02c** | -5.937 | 0.160 | 37.11 | -2.991 | 0.046 | 65.02 |
+| **Gurney 0.01c** | -5.870 | 0.156 | 37.63 | -2.867 | 0.041 | 69.93 |
+| **No Gurney** | **-5.806** | **0.133** | **43.65** | **-2.604** | **0.036** | **72.33** |
 
 ## Conclusion and Future Work
 
