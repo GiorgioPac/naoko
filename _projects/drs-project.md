@@ -19,6 +19,18 @@ header:
 excerpt: "A comprehensive Computational Fluid Dynamics (CFD) study investigating the aerodynamic optimization of a Formula 1 rear wing through the deployment of a Drag Reduction System (DRS) and the geometric influence of a Gurney Flap."
 ---
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Introduction: Problem Statement and Objective 🎯
 
 This project utilized the open-source CFD solver **SU2** to perform a two-dimensional RANS analysis of a Formula 1 rear wing. The primary goal was to quantify the aerodynamic performance gains achieved by two key solutions: the active **Drag Reduction System (DRS) deployment** and the addition of a passive **Gurney Flap**. The study included both steady and unsteady analysis to capture transient effects.
