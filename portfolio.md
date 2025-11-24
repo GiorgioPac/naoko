@@ -4,9 +4,11 @@ permalink: /portfolio/
 # Abbiamo rimosso layout: archive per bypassare il conflitto.
 ---
 
+<div style="margin-left: 20px; margin-right: 20px;">
+
 Welcome to my technical portfolio. This section showcases the most significant aerodynamics and fluid dynamics projects conducted during my Master's degree in Aeronautical Engineering.
 
-## 🚀 University and Personal Projects
+## 🙂 Relevant University and Personal Projects
 
 {% assign projects = site.projects | sort: 'date' | reverse %}
 
@@ -19,3 +21,5 @@ Welcome to my technical portfolio. This section showcases the most significant a
   </div>
   <hr>
 {% endfor %}
+
+</div>
