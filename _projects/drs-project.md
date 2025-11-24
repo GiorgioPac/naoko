@@ -1,7 +1,5 @@
 ---
 title: "CFD Analysis of Drag Reduction System (DRS) Opening and Gurney Flap Influence using SU2"
-date: 2025-11-24
-last_modified_at: 2025-11-24T21:20:00+01:00
 categories:
   - CFD
   - Engineering
