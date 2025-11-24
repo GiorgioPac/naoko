@@ -15,7 +15,7 @@ layout: single
 classes: wide
 header:
   overlay_image: /assets/images/su2/su2_banner.png
-  caption: "Credit: Francesco Lo Sardo, Gino Martella, Giorgio Pacchione, Davide Ruocchio, Luca Servadio"
+  caption: "Credit: Giorgio Pacchione"
 excerpt: "A comprehensive Computational Fluid Dynamics (CFD) study investigating the aerodynamic optimization of a Formula 1 rear wing through the deployment of a Drag Reduction System (DRS) and the geometric influence of a Gurney Flap."
 ---
 
