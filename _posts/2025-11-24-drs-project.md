@@ -8,6 +8,10 @@ categories:
 tags:
   - SU2
   - Aerodynamics
+# Aggiungi questa linea:
+hidden: true 
+layout: single
+# ... il resto ...
   - DRS
   - Gurney Flap
   - Transient Simulation
