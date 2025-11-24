@@ -1,0 +1,7 @@
+# _i18n/en.yml
+
+# Chiave corretta per l'intestazione del footer
+follow_label: "Connect"
+
+# Chiave per il link RSS (se vuoi cambiarla)
+feed_label: "Blog Feed"

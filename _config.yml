@@ -27,7 +27,7 @@ baseurl : "/naoko"
 repository : "GiorgioPac/naoko"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title             : "Naoko" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title             : "naoko" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
@@ -67,7 +67,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
- # name             : "Giorgio Pacchione"
+  # name             : "Giorgio Pacchione"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Aeronautical Engineer by choice, deeply passionate about Aerodynamics and Fluid Dynamics. A dedicated fan of Hip Hop and Rap, live music, and combat sports. Overall, a nerd."
   location         : "Milan"
@@ -128,6 +128,7 @@ author:
 
 # Site Footer
 footer:
+  title: "Connect" # <--- NUOVA RIGA: Imposta l'intestazione su "Connect"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
