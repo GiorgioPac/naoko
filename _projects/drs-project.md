@@ -1,5 +1,5 @@
 ---
-title: "CFD Analysis of Drag Reduction System (DRS) Opening and Gurney Flap Influence using SU2"
+title: " Numerical Investigation of Aerodynamic Performance of a Formula 1 Rear Wing: DRS Activation and Gurney Flap"
 categories:
   - CFD
   - Engineering
@@ -16,7 +16,7 @@ classes: wide
 header:
   overlay_image: /assets/images/su2/su2_banner.png
   caption: "Credit: Giorgio Pacchione"
-excerpt: "A comprehensive Computational Fluid Dynamics (CFD) study investigating the aerodynamic optimization of a Formula 1 rear wing through the deployment of a Drag Reduction System (DRS) and the geometric influence of a Gurney Flap."
+excerpt: "A CFD investigation into Formula 1 rear wing aerodynamics, employing sliding meshes to simulate DRS deployment and evaluate the performance of the Gurney Flap."
 ---
 
 <script type="text/x-mathjax-config">
@@ -33,7 +33,7 @@ excerpt: "A comprehensive Computational Fluid Dynamics (CFD) study investigating
 
 # Introduction: Problem Statement and Objective 🎯
 
-This project utilized the open-source CFD solver **SU2** to perform a two-dimensional RANS analysis of a Formula 1 rear wing. The primary goal was to quantify the aerodynamic performance gains achieved by two key solutions: the active **Drag Reduction System (DRS) deployment** and the addition of a passive **Gurney Flap**. The study included both steady and unsteady analysis to capture transient effects.
+This project utilized the open source CFD solver **SU2** to perform a two dimensional RANS analysis of a Formula 1 rear wing. The primary goal was to quantify the aerodynamic performance gains achieved by two key solutions: the active **Drag Reduction System (DRS) deployment** and the addition of a **Gurney Flap**. The study focuses on a DRS setup and investigates the effects of unsteady and transient phenomena that may arise upon its activation. The Gurney flap is tested to evaluate its functioning and effectiveness limitedly to steady conditions.
 
 ## Methodology and Simulation Setup
 
@@ -43,7 +43,7 @@ We used the **compressible form of the RANS equations** with the **SST $k-\omega
 
 ### Visualization of Sliding Mesh Topology
 
-The images below illustrate the mesh topology. A key challenge was maintaining the boundary layer integrity at the interface between the rotating and stationary zones.
+The images below illustrate the mesh topology. A key challenge was maintaining the boundary layer integrity at the interface between the rotating and stationary zones. Furtheremore, the use of slinding meshes requires particular attention in meshing the interface area, where cells from different zone must have similar size to have stability and convergence.
 
 <figure class="half">
     <a href="/naoko/assets/images/su2/mesh_sliding_close.png"><img src="/naoko/assets/images/su2/mesh_sliding_close.png" alt="Mesh DRS Closed"></a>
@@ -56,7 +56,7 @@ The images below illustrate the mesh topology. A key challenge was maintaining t
 ### 1. Transient Effects (DRS Activation)
 The $40^{\circ}$ DRS opening occurs over a rapid $0.2$ second window. The **unsteady analysis** was crucial as it revealed that the aerodynamic performance does not stabilize immediately:
 * **Transient Duration:** Aerodynamic coefficients continue to change for approximately **one second** after the motion stops, highlighting that transient effects impact performance for 10-20% of the duration the DRS is enabled on track.
-* **Vortex Influence:** During this transient phase, the lift coefficient temporarily **overshoots** its steady-state value, resulting in a brief moment of higher downforce and negative drag, beneficial for acceleration.
+* **Vortex Influence:**  A vortex can be detected downstream of the rear wing after activating the DRS. This vortex is injected into the flow by the changing circulation that results from the opening of the DRS flap. As such, it has a circulation that is opposite, in sign, to that of the starting vortex. When sufficiently close to the rear wing, it induces a velocity component on the airfoils, which has the effect of altering their perceived angle of attack. Due to the influence of the vortex, the mainplane airfoil feels an increased angle of attack that contributes to make the lift on the main wing more negative, generating temporarily a larger downforce. As time evolves, the vortex is advected away by the velocity field while diffusing. 
 
 <figure class="half">
     <a href="/naoko/assets/images/su2/lift_coefficient.png"><img src="/naoko/assets/images/su2/lift_coefficient.png" alt="Lift Coefficient Evolution"></a>
@@ -65,7 +65,7 @@ The $40^{\circ}$ DRS opening occurs over a rapid $0.2$ second window. The **unst
 </figure>
 
 ### 2. Gurney Flap Trade-Off
-The Gurney Flap (tested at $0.01c$ and $0.02c$) was confirmed to significantly increase downforce ($C_L$). However, because the flap introduces a drag deficit, the overall **Lift-to-Drag ($L/D$) ratio was worse** than the wing without the Gurney Flap. The shorter flap ($0.01c$) delivered a more balanced performance.
+The Gurney Flap (tested at $0.01c$ and $0.02c$) was confirmed to significantly increase downforce ($C_L$). However, because the flap introduces a drag deficit, the overall **Lift-to-Drag ($L/D$) ratio was worse** than the wing without the Gurney Flap. The shorter flap delivered a more balanced performance.
 
 <figure>
     <a href="/naoko/assets/images/su2/gurney_flap.png"><img src="/naoko/assets/images/su2/gurney_flap.png" alt="Streamlines around Gurney Flap"></a>
@@ -74,7 +74,7 @@ The Gurney Flap (tested at $0.01c$ and $0.02c$) was confirmed to significantly i
 
 ### Summary of Results (Total Coefficients)
 
-The table below summarizes the aerodynamic total coefficients and lift-to-drag ratio with and without the Gurney flap for both configurations.
+The table below summarizes the aerodynamic total coefficients and lift-to-drag ratio with and without the Gurney flap for the analised configurations.
 
 | Configuration | **DRS Disabled** <br> $C_L$ | **DRS Disabled** <br> $C_D$ | **DRS Disabled** <br> $L/D$ | **DRS Enabled** <br> $C_L$ | **DRS Enabled** <br> $C_D$ | **DRS Enabled** <br> $L/D$ |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
