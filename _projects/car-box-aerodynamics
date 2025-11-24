@@ -30,53 +30,53 @@ excerpt: "A comparative study combining OpenFOAM CFD simulations and wind tunnel
 
 # Introduction: The Aerodynamic Challenge 🎯
 
-[cite_start]The addition of a cargo box to a vehicle represents a classic aerodynamic trade-off: gaining storage space at the cost of efficiency[cite: 704]. [cite_start]The objective of this project was to investigate how different cargo box configurations alter the airflow around an **Audi A4 Sedan**, specifically looking for a design that minimizes aerodynamic drag ($C_D$) and, consequently, fuel consumption[cite: 706, 708].
+The addition of a cargo box to a vehicle represents a classic aerodynamic trade-off: gaining storage space at the cost of efficiency. The objective of this project was to investigate how different cargo box configurations alter the airflow around an **Audi A4 Sedan**, specifically looking for a design that minimizes aerodynamic drag ($C_D$) and, consequently, fuel consumption.
 
-[cite_start]The study was conducted using a dual approach: **Computational Fluid Dynamics (CFD)** with OpenFOAM to visualize the flow physics, and **Experimental Testing** in a wind tunnel to validate the results[cite: 706, 1069].
+The study was conducted using a dual approach: **Computational Fluid Dynamics (CFD)** with OpenFOAM to visualize the flow physics, and **Experimental Testing** in a wind tunnel to validate the results.
 
 ## Methodology
 
-* [cite_start]**Numerical Analysis (OpenFOAM):** We performed steady-state RANS simulations using the `simpleFoam` solver and the $k-\omega$ SST turbulence model[cite: 724, 725]. This setup allowed us to capture the complex wake interactions and boundary layer separation caused by the bluff body of the box.
-* [cite_start]**Experimental Validation:** A 1:15 scale model of the car was 3D printed and tested in a wind tunnel equipped with a force balance, ensuring the reliability of the numerical trends[cite: 1069, 1070].
+* **Numerical Analysis (OpenFOAM):** We performed steady-state RANS simulations using the `simpleFoam` solver and the $k-\omega$ SST turbulence model. This setup allowed us to capture the complex wake interactions and boundary layer separation caused by the bluff body of the box.
+* **Experimental Validation:** A 1:15 scale model of the car was 3D printed and tested in a wind tunnel equipped with a force balance, ensuring the reliability of the numerical trends.
 
 ## Qualitative Analysis of Flow Physics
 
 ### Impact of Box Placement on the Wake
 
-Introducing a standard box on the roof significantly disrupts the vehicle's aerodynamics. [cite_start]The box acts as a bluff body in the free stream, forcing the flow to separate and creating a massive, low-pressure wake behind the car[cite: 704]. This pressure difference is the primary driver of increased drag.
+Introducing a standard box on the roof significantly disrupts the vehicle's aerodynamics. The box acts as a bluff body in the free stream, forcing the flow to separate and creating a massive, low-pressure wake behind the car. This pressure difference is the primary driver of increased drag.
 
-[cite_start]In contrast, placing the box at the **rear of the vehicle ("Back Box")** places it within the car's existing "dead air" zone[cite: 853]. [cite_start]As shown in the velocity field comparison below, the Back Box maintains a much cleaner flow pattern similar to the car's native aerodynamics, whereas the roof box generates a large, high-energy wake[cite: 904].
+In contrast, placing the box at the **rear of the vehicle ("Back Box")** places it within the car's existing "dead air" zone. As shown in the velocity field comparison below, the Back Box maintains a much cleaner flow pattern similar to the car's native aerodynamics, whereas the roof box generates a large, high-energy wake.
 
 <figure>
     <a href="/naoko/assets/images/openfoam/velocity.png"><img src="/naoko/assets/images/openfoam/velocity.png" alt="Velocity Magnitude Comparison"></a>
-    <figcaption>Figure 1: Visualization of the velocity magnitude. [cite_start]The roof box (top) generates a significantly larger and more turbulent wake compared to the streamlined flow of the back-mounted solution (bottom)[cite: 876, 884].</figcaption>
+    <figcaption>Figure 1: Visualization of the velocity magnitude. The roof box (top) generates a significantly larger and more turbulent wake compared to the streamlined flow of the back-mounted solution (bottom).</figcaption>
 </figure>
 
 ### Visualization of Turbulence (Q-Criterion)
 
-[cite_start]To understand the noise and drag generation, we analyzed the vortical structures using the Q-Criterion[cite: 905].
+To understand the noise and drag generation, we analyzed the vortical structures using the Q-Criterion.
 
-* [cite_start]**Roof Box:** Generates intense horseshoe vortices originating from the gap between the box and the roof, which travel downstream and increase turbulence[cite: 893].
-* [cite_start]**Back Box:** Keeps the flow attached over the roofline, preventing the formation of large separating vortices[cite: 903].
+* **Roof Box:** Generates intense horseshoe vortices originating from the gap between the box and the roof, which travel downstream and increase turbulence.
+* **Back Box:** Keeps the flow attached over the roofline, preventing the formation of large separating vortices.
 
 <figure class="half">
     <a href="/naoko/assets/images/openfoam/q1.jpeg"><img src="/naoko/assets/images/openfoam/q1.jpeg" alt="Q-Criterion Roof Box"></a>
     <a href="/naoko/assets/images/openfoam/q2.jpeg"><img src="/naoko/assets/images/openfoam/q2.jpeg" alt="Q-Criterion Back Box"></a>
-    <figcaption>Figure 2: Comparison of turbulent structures. [cite_start]The roof configuration (left) shows massive vortex shedding compared to the cleaner flow of the rear configuration (right)[cite: 916].</figcaption>
+    <figcaption>Figure 2: Comparison of turbulent structures. The roof configuration (left) shows massive vortex shedding compared to the cleaner flow of the rear configuration (right).</figcaption>
 </figure>
 
 ## Experimental Validation and Fuel Consumption
 
-[cite_start]The wind tunnel tests confirmed the trends observed in the CFD simulations[cite: 1132]. [cite_start]Despite the complexities of scaling, the force balance measurements verified that the **Back Box** is the superior aerodynamic solution[cite: 1140].
+The wind tunnel tests confirmed the trends observed in the CFD simulations. Despite the complexities of scaling, the force balance measurements verified that the **Back Box** is the superior aerodynamic solution.
 
 ### Impact on Fuel Economy
 
-[cite_start]The aerodynamic penalty of a roof box is not just theoretical; it translates directly into fuel consumption, especially at highway speeds where aerodynamic drag dominates over rolling resistance[cite: 1028].
-[cite_start]The study concluded that choosing a **rear-mounted solution** effectively neutralizes the penalty of the extra load, offering significant fuel savings over long distances compared to traditional roof racks[cite: 851, 1050].
+The aerodynamic penalty of a roof box is not just theoretical; it translates directly into fuel consumption, especially at highway speeds where aerodynamic drag dominates over rolling resistance.
+The study concluded that choosing a **rear-mounted solution** effectively neutralizes the penalty of the extra load, offering significant fuel savings over long distances compared to traditional roof racks.
 
 <figure>
     <a href="/naoko/assets/images/openfoam/wind_tunnel.jpg"><img src="/naoko/assets/images/openfoam/wind_tunnel.jpg" alt="Wind Tunnel Setup"></a>
-    [cite_start]<figcaption>Figure 3: The 3D-printed Audi A4 model mounted in the wind tunnel for experimental force measurements[cite: 1095].</figcaption>
+    <figcaption>Figure 3: The 3D-printed Audi A4 model mounted in the wind tunnel for experimental force measurements.</figcaption>
 </figure>
 
 ***
