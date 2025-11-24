@@ -2,7 +2,7 @@
 title: "Aerospace Engineering Portfolio"
 permalink: /portfolio/ 
 layout: archive 
-entries_layout: grid 
+entries_layout: list 
 # Nuovo blocco di filtro:
 collection: projects    # <--- MODIFICA QUI: da 'posts' a 'projects'
 sort_by: date
