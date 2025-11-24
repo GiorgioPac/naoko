@@ -8,7 +8,7 @@ permalink: /portfolio/
 
 <p>Welcome to my technical portfolio. This section showcases the most significant aerodynamics and fluid dynamics projects conducted during my Master's degree in Aeronautical Engineering.</p>
 
-## **🙂 Relevant University and Personal Projects**
+<h2><b>🙂 Relevant University and Personal Projects</b></h2>
 
 {% assign projects = site.projects | sort: 'date' | reverse %}
 
