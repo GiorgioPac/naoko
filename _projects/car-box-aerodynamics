@@ -13,9 +13,8 @@ tags:
 mathjax: true
 layout: single
 classes: wide
+# Header pulito: niente immagine di sfondo, solo il titolo verrà mostrato
 header:
-  overlay_image: /assets/images/openfoam/velocity.png
-  caption: "Credit: D. Terraneo, G. Pacchione, M. Maddonini, P. Sarti (Politecnico di Milano)"
 excerpt: "A comparative study combining OpenFOAM CFD simulations and wind tunnel testing to minimize drag and fuel consumption of an Audi A4 equipped with various cargo box configurations."
 ---
 
@@ -49,8 +48,10 @@ Introducing a standard box on the roof significantly disrupts the vehicle's aero
 
 In contrast, placing the box at the **rear of the vehicle ("Back Box")** places it within the car's existing "dead air" zone. As shown in the velocity field comparison below, the Back Box maintains a much cleaner flow pattern similar to the car's native aerodynamics, whereas the roof box generates a large, high-energy wake.
 
-![Dimensionless Velocity Field]( /naoko/assets/images/openfoam/velocity.png )
-*Figure 1: Visualization of the velocity magnitude. The roof box (top) generates a significantly larger and more turbulent wake compared to the streamlined flow of the back-mounted solution (bottom).*
+<figure>
+    <a href="/naoko/assets/images/openfoam/velocity.png"><img src="/naoko/assets/images/openfoam/velocity.png" alt="Velocity Magnitude Comparison"></a>
+    <figcaption>Figure 1: Visualization of the velocity magnitude. The roof box (top) generates a significantly larger and more turbulent wake compared to the streamlined flow of the back-mounted solution (bottom).</figcaption>
+</figure>
 
 ### Visualization of Turbulence (Q-Criterion)
 To understand the noise and drag generation, we analyzed the vortical structures using the Q-Criterion.
@@ -71,8 +72,10 @@ The wind tunnel tests confirmed the trends observed in the CFD simulations. Desp
 The aerodynamic penalty of a roof box is not just theoretical; it translates directly into fuel consumption, especially at highway speeds where aerodynamic drag dominates over rolling resistance.
 The study concluded that choosing a **rear-mounted solution** effectively neutralizes the penalty of the extra load, offering significant fuel savings over long distances compared to traditional roof racks.
 
-![Wind Tunnel Setup]( /naoko/assets/images/openfoam/wind_tunnel.png )
-*Figure 3: The 3D-printed Audi A4 model mounted in the wind tunnel for experimental force measurements.*
+<figure>
+    <a href="/naoko/assets/images/openfoam/wind_tunnel.png"><img src="/naoko/assets/images/openfoam/wind_tunnel.png" alt="Wind Tunnel Setup"></a>
+    <figcaption>Figure 3: The 3D-printed Audi A4 model mounted in the wind tunnel for experimental force measurements.</figcaption>
+</figure>
 
 ***
 
