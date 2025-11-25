@@ -11,6 +11,7 @@ tags:
 mathjax: true
 layout: single
 classes: wide
+date: 2025-11-23
 header:
   # Nessuna immagine di sfondo qui, solo il credito generale se serve
   caption: "Credit: G. Pacchione"
