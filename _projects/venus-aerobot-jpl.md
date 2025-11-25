@@ -77,6 +77,6 @@ Below are the resulting pressure and velocity fields showing the Aerobot's inter
 
 <div class="notice--warning">
   <h4>⚠️ Disclaimer & Copyright</h4>
-  <p>No sensitive or classified information regarding NASA/JPL missions has been disclosed in this portfolio. All data presented is derived from publicly available models or generic simulations.</p>
+  <p>No sensitive or classified information regarding NASA/JPL missions has been disclosed in this portfolio.</p>
   <p>Unless explicitly stated otherwise (e.g., Image Credits to NASA/JPL-Caltech), all content, images, and simulations on this page are <strong>Copyright © Giorgio Pacchione</strong>. All rights reserved.</p>
 </div>
