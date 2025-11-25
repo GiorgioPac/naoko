@@ -11,6 +11,7 @@ tags:
 mathjax: true
 layout: single
 classes: wide
+date: 2025-11-24
 header:
   overlay_image: /assets/images/su2/su2_banner.png
   caption: "Credit: Giorgio Pacchione"
