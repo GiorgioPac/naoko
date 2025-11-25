@@ -8,7 +8,7 @@ layout: single
 
 For job inquiries or collaborations, please feel free to reach out:
 
-* **Email:** pacchionegiorgio@mail.com
+* **Email:** pacchionegiorgio@gmail.com
 * **LinkedIn:** www.linkedin.com/in/giorgio-pacchione-0516a2198
 
 ---
