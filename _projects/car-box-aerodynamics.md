@@ -7,8 +7,6 @@ tags:
   - OpenFOAM
   - Wind Tunnel
   - Aerodynamics
-  - Experimental Validation
-  - Fuel Consumption
   - project
 mathjax: true
 layout: single
