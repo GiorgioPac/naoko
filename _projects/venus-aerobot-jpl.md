@@ -13,7 +13,7 @@ tags:
 mathjax: true
 layout: single
 classes: wide
-date: 2025-11-26
+date: 2025-11-24
 excerpt: "Master's Thesis project in collaboration with NASA JPL. Advanced CFD investigation (DDES) and Fluid-Structure Interaction analysis of a robotic balloon for Venus exploration."
 ---
 
