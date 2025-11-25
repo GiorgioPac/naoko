@@ -68,15 +68,21 @@ The study was performed using the open-source software **OpenFOAM**. To achieve 
 * The complex **turbulent structures** in the wake.
 * The dominant unsteady frequencies associated with vortex shedding and wind interactions.
 
-<figure class="half">
-    <a href="/naoko/assets/images/jpl/vertical_wind_1.png"><img src="/naoko/assets/images/jpl/vertical_wind_1.png" alt="Vertical Wind Simulation 1"></a>
-    <a href="/naoko/assets/images/jpl/vertical_wind_2.png"><img src="/naoko/assets/images/jpl/vertical_wind_2.png" alt="Vertical Wind Simulation 2"></a>
-    <figcaption>Figure 2: CFD visualization of vertical wind effects on the Aerobot. Images credits: Giorgio Pacchione.</figcaption>
-</figure>
-
 <figure>
-    <a href="/naoko/assets/images/jpl/horizontal_wind.png"><img src="/naoko/assets/images/jpl/horizontal_wind.png" alt="Horizontal Wind Simulation"></a>
-    <figcaption>Figure 3: Visualization of horizontal wind flow field. Image credits: Giorgio Pacchione.</figcaption>
+  <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+    <a href="/naoko/assets/images/jpl/vertical_wind_1.png" style="width: 50%;">
+      <img src="/naoko/assets/images/jpl/vertical_wind_1.png" alt="Vertical Wind 1">
+    </a>
+    <a href="/naoko/assets/images/jpl/vertical_wind_2.png" style="width: 50%;">
+      <img src="/naoko/assets/images/jpl/vertical_wind_2.png" alt="Vertical Wind 2">
+    </a>
+  </div>
+
+  <a href="/naoko/assets/images/jpl/horizontal_wind.png">
+    <img src="/naoko/assets/images/jpl/horizontal_wind.png" alt="Horizontal Wind">
+  </a>
+
+  <figcaption>Figure 2: CFD visualization of wind effects. Top: Vertical wind interaction on the Aerobot. Bottom: Horizontal wind interaction on the Aerobot. Image credits: Giorgio Pacchione.</figcaption>
 </figure>
 
 <figure class="half">
