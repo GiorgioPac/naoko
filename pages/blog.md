@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 layout: archive
-permalink: /year-archive/
+permalink: /blog/
 ---
 
 Work in progress.
