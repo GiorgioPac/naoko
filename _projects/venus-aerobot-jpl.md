@@ -100,7 +100,7 @@ Overall, this work represents a novel contribution to the field of scientific ba
     <a href="/naoko/assets/images/jpl/fsi_1.png"><img src="/naoko/assets/images/jpl/fsi_1.png" alt="FSI Field 1"></a>
     <a href="/naoko/assets/images/jpl/fsi_2.png"><img src="/naoko/assets/images/jpl/fsi_2.png" alt="FSI Field 2"></a>
     <a href="/naoko/assets/images/jpl/fsi_3.png"><img src="/naoko/assets/images/jpl/fsi_3.png" alt="FSI Field 3"></a>
-    <figcaption>Figure 6: Sequence of pressure and velocity fields during the FSI simulation to characterize the response under vertical wind gusts. Images Credits: Giorgio Pacchione</figcaption>
+    <figcaption>Figure 3: Sequence of pressure and velocity fields during the FSI simulation to characterize the response under vertical wind gusts. Images Credits: Giorgio Pacchione</figcaption>
 </figure>
 
 
