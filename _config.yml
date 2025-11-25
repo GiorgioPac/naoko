@@ -115,7 +115,7 @@ analytics:
 author:
   # name             : "Giorgio Pacchione"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Aeronautical Engineer by choice, deeply passionate about Aerodynamics and Fluid Dynamics. A dedicated fan of Hip Hop and Rap, live music, and combat sports. Overall, a nerd."
+  bio              : "Aeronautical Engineer by choice, deeply passionate about Aerodynamics and Fluid Dynamics."
   location         : "Milan"
   
   links:
