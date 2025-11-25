@@ -2,13 +2,11 @@
 title: " Numerical Investigation of Aerodynamic Performance of a Formula 1 Rear Wing: DRS Activation and Gurney Flap"
 categories:
   - CFD
-  - Engineering
+  - F1
 tags:
   - SU2
   - Aerodynamics
-  - DRS
-  - Gurney Flap
-  - Transient Simulation
+  - Formula 1
   - project
 mathjax: true
 layout: single
