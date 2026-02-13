@@ -22,6 +22,6 @@ The final campaign involved the study of a **Propeller**, utilizing **Particle I
 ***
 
 ### 📄 Full Technical Report
-For the complete analysis, including uncertainty quantification and experimental results, please access the document below:
+For the complete analysis, please access the document below:
 
 [**View Full Report (PDF)**](/naoko/assets/docs/Experimental_fluid_mechanics_report.pdf){: .btn .btn--info .btn--large :target="_blank"}
