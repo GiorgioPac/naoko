@@ -1,17 +1,17 @@
 ---
-title: "Experimental Fluid Dynamics Report"
-layout: null
-date: 2024-01-01
+title: "Experimental Fluid Mechanics"
+excerpt: "Technical report on wind tunnel testing, pressure distribution, and aerodynamic data analysis."
+date: 2020-01-01
 header:
-  teaser: /assets/images/tuo-teaser.jpg
+  teaser: /assets/images/experimental-thumb.jpg
+layout: single
 ---
 
-<!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting...</title>
-<link rel="canonical" href="/naoko/assets/docs/report-experimental-fluid-dynamics.pdf">
-<script>location="/naoko/assets/docs/Experimental_fluid_mechanics_report.pdf"</script>
-<meta http-equiv="refresh" content="0; url=/naoko/assets/docs/report-experimental-fluid-dynamics.pdf">
+# Experimental Fluid Mechanics Report
 
-<h1>Redirecting to PDF...</h1>
-<p>If you are not redirected, <a href="/naoko/assets/docs/report-experimental-fluid-dynamics.pdf">click here</a>.</p>
+This project covers the experimental campaign conducted in the wind tunnel. The study includes the setup of pressure transducers, Pitot tubes, and the subsequent data reduction to characterize the aerodynamic behavior of the tested model.
+
+### 📄 Full Technical Report
+For the complete analysis, including uncertainty quantification and experimental results, please access the document below:
+
+[**View Full Report (PDF)**](/naoko/assets/docs/Experimental_fluid_mechanics_report.pdf){: .btn .btn--info .btn--large :target="_blank"}
