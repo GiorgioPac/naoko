@@ -1,7 +1,7 @@
 ---
 title: "Experimental Fluid Mechanics"
 excerpt: "Technical report on wind tunnel testing, pressure distribution, and aerodynamic data analysis."
-date: 2020-01-01
+date: 2024-12-01
 header:
   teaser: /assets/images/experimental-thumb.jpg
 layout: single
@@ -9,7 +9,17 @@ layout: single
 
 # Experimental Fluid Mechanics Report
 
-This project covers the experimental campaign conducted in the wind tunnel. The study includes the setup of pressure transducers, Pitot tubes, and the subsequent data reduction to characterize the aerodynamic behavior of the tested model.
+This project covers four distinct experimental campaigns conducted in the wind tunnel, focused on characterising aerodynamic performance and flow field structures through advanced measurement techniques.
+
+### Campaign Overview
+The first three campaigns were performed on a **NACA airfoil** to analyze:
+* **Force Measurements:** Evaluation of lift and drag coefficients.
+* **Pressure Distribution:** Mapping the pressure field across the airfoil surface.
+* **Wake Analysis:** High-frequency turbulence and velocity measurements in the wake using **Hot-Wire Anemometry (HWA)**.
+
+The final campaign involved the study of a **Propeller**, utilizing **Particle Image Velocimetry (PIV)** to obtain non-intrusive, two-dimensional velocity fields and visualize the tip vortex structures.
+
+***
 
 ### 📄 Full Technical Report
 For the complete analysis, including uncertainty quantification and experimental results, please access the document below:
