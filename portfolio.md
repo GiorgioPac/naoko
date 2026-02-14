@@ -6,7 +6,7 @@ permalink: /portfolio/
 
 <div style="margin-left: 20px; margin-right: 20px;">
 
-<p>Welcome to my technical portfolio. This section showcases the most significant aerodynamics and fluid dynamics projects conducted during my Master's degree in Aeronautical Engineering.</p>
+<p>Welcome to my technical portfolio. This section showcases the most significant aerodynamics and fluid dynamics projects conducted during my Internships and Master's degree in Aeronautical Engineering.</p>
 
 <h2><b>🙂 Relevant University and Personal Projects</b></h2>
 
